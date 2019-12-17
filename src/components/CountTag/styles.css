@@ -1,0 +1,19 @@
+.title {
+  display: flex;
+  justify-content: flex-end;
+  justify-self: end;
+  color: #9b9b9b;
+  font-size: small;
+}
+.number {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: x-large;
+  justify-self: end;
+}
+.number-remaining {
+  color: #9b9b9b;
+  font-size: medium;
+}

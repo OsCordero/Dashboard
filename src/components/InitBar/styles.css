@@ -1,0 +1,50 @@
+.init-bar {
+  background-color: white;
+  height: auto;
+}
+.dir-bar {
+  display: flex;
+  height: 50px;
+  font-size: small;
+  align-items: center;
+  color: #9b9b9b;
+}
+.dir-bar .active {
+  color: #4d4d4d;
+}
+.profile {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+.resume-bar {
+  align-items: center;
+  min-height: 80px;
+  display: grid;
+  padding-bottom: 10px;
+  grid-template-columns: 65% 35%;
+}
+.resume-bar-welcome {
+  display: grid;
+  grid-template-columns: 12% 88%;
+  column-gap: 10px;
+  line-height: 20px;
+}
+.resume-bar-greeting {
+  display: grid;
+  row-gap: 10px;
+}
+.resume-bar-main-greeting {
+  font-size: large;
+  font-weight: 500;
+}
+.resume-bar-sub-greeting {
+  color: #9b9b9b;
+  font-size: small;
+}
+.resume-bar-count {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  align-self: start;
+}

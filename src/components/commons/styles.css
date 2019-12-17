@@ -1,0 +1,7 @@
+.fixed-container {
+  width: 65%;
+  margin: 0 auto;
+  height: 100%;
+  display: table;
+  height: max-content;
+}

@@ -1,17 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import NavBar from './components/NavBar/NavBar';
+import InitBar from './components/InitBar/InitBar';
 function App() {
   return (
-    <div>
-      <Container>
-        <LeftSide>
-          <ProjectResume />
-          <Activities />
-        </LeftSide>
-        <RightSide />
-      </Container>
+    <div className='app'>
+      <NavBar />
+      <InitBar />
     </div>
   );
 }
