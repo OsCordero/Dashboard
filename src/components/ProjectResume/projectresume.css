@@ -1,0 +1,37 @@
+.project-resume {
+  display: grid;
+  row-gap: 5px;
+  align-items: center;
+  padding: 20px;
+  border-right: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+}
+.project-body {
+  font-size: 12px;
+  color: #9b9b9b;
+}
+.project-header {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+}
+.project-photo {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.project-footer {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  font-size: 11px;
+  color: #9b9b9b;
+}
+.project-team-name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.project-last-update {
+  justify-self: end;
+}

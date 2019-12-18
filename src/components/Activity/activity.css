@@ -1,0 +1,19 @@
+.activity {
+  display: grid;
+  grid-template-columns: 7% 93%;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.activity-image {
+  width: 35px;
+}
+.activity-content-title {
+  font-size: small;
+  margin-bottom: 10px;
+}
+
+.activity-content-time-ago {
+  font-size: x-small;
+  color: #9b9b9b;
+  margin-bottom: 15px;
+}

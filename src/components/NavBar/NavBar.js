@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FixedContainer from '../commons/FixedContainer';
-import './styles.css';
+import './navbar.css';
 export class NavBar extends Component {
   render() {
     return (

@@ -1,10 +1,11 @@
 .init-bar {
   background-color: white;
   height: auto;
+  margin-bottom: 20px;
 }
 .dir-bar {
   display: flex;
-  height: 50px;
+  height: 40px;
   font-size: small;
   align-items: center;
   color: #9b9b9b;
@@ -13,20 +14,21 @@
   color: #4d4d4d;
 }
 .profile {
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
 }
 .resume-bar {
   align-items: center;
   min-height: 80px;
   display: grid;
-  padding-bottom: 10px;
-  grid-template-columns: 65% 35%;
+  padding-bottom: 5px;
+  column-gap: 20px;
+  grid-template-columns: 67% 33%;
 }
 .resume-bar-welcome {
   display: grid;
-  grid-template-columns: 12% 88%;
+  grid-template-columns: 12% 85%;
   column-gap: 10px;
   line-height: 20px;
 }
@@ -45,6 +47,6 @@
 .resume-bar-count {
   display: grid;
   grid-template-columns: auto auto auto;
-  column-gap: 20px;
+  grid-column-gap: 25px;
   align-self: start;
 }

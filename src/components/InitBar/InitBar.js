@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import FixedContainer from '../commons/FixedContainer';
 import CountTag from '../CountTag/CountTag';
-import './styles.css';
+import './initbar.css';
 export class InitBar extends Component {
   render() {
     return (
@@ -25,9 +25,9 @@ export class InitBar extends Component {
                 </div>
               </div>
             </div>
-            <div class='resume-bar-count'>
+            <div className='resume-bar-count'>
               <CountTag title='Number of items' number='56' />
-              <CountTag title='Team ranking' number='8' remaining='/ 24' />
+              <CountTag title='Team ranking' number='8' remaining='&nbsp; / 24' />
               <CountTag title='Project visit' number='2,223' />
             </div>
           </div>

@@ -5,3 +5,17 @@ html {
   font-family: 'Roboto', sans-serif;
   background-color: #f1f1f1;
 }
+
+.content {
+  display: grid;
+  grid-template-columns: 67% 33%;
+  column-gap: 20px;
+}
+
+.projects-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.padding-content {
+  padding: 20px;
+}

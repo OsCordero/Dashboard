@@ -1,3 +1,9 @@
+.count-tag {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  padding: auto;
+}
 .title {
   display: flex;
   justify-content: flex-end;
@@ -16,4 +22,7 @@
 .number-remaining {
   color: #9b9b9b;
   font-size: medium;
+}
+.fix-text {
+  max-width: 95%;
 }
