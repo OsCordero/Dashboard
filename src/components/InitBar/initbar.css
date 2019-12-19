@@ -2,6 +2,7 @@
   background-color: white;
   height: auto;
   margin-bottom: 20px;
+  width: 100%;
 }
 .dir-bar {
   display: flex;
@@ -26,11 +27,26 @@
   column-gap: 20px;
   grid-template-columns: 67% 33%;
 }
+
+@media only screen and (max-width: 768px) {
+  .resume-bar {
+    grid-template-columns: auto;
+    row-gap: 10px;
+  }
+}
+
 .resume-bar-welcome {
   display: grid;
   grid-template-columns: 12% 85%;
   column-gap: 10px;
   line-height: 20px;
+}
+
+@media only screen and (max-width: 568px) {
+  .resume-bar-welcome {
+    grid-template-columns: auto;
+    row-gap: 10px;
+  }
 }
 .resume-bar-greeting {
   display: grid;

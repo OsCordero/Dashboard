@@ -12,9 +12,28 @@
 }
 .project-header {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 22% 78%;
   align-items: center;
 }
+@media only screen and (max-width: 992px) {
+  .project-header {
+    grid-template-columns: 50px 70%;
+  }
+  .project-header {
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .project-header {
+    grid-template-columns: 15% 85%;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .project-header {
+    grid-template-columns: 30px auto;
+  }
+}
+
 .project-photo {
   width: 30px;
   height: 30px;

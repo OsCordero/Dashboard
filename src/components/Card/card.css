@@ -1,6 +1,7 @@
 .card {
   background-color: white;
   margin-bottom: 5px;
+  max-width: 100%;
 }
 .divider {
   padding: 0;

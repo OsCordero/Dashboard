@@ -5,3 +5,14 @@
   display: table;
   height: max-content;
 }
+
+@media only screen and (max-width: 992px) {
+  .fixed-container {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .fixed-container {
+    width: 95%;
+  }
+}

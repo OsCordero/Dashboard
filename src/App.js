@@ -5,8 +5,11 @@ import FixedContainer from './components/commons/FixedContainer';
 import Card from './components/Card/Card';
 import ProjectResume from './components/ProjectResume/ProjectResume';
 import Activity from './components/Activity/Activity';
+import Chart from './components/Chart/Chart';
+import CountTag from './components/CountTag/CountTag';
+import Team from './components/Team/Team';
 const data = require('./data.json');
-const projects = data.projects;
+const { projects, activities } = data;
 
 function App(props) {
   return (
@@ -25,13 +28,28 @@ function App(props) {
             </Card>
             <Card title='dynamic'>
               <div className='padding-content'>
-                <Activity />
+                {activities.map(activity => (
+                  <Activity data={activity} />
+                ))}
               </div>
             </Card>
           </div>
           <div className='secondary-content'>
             <Card title='XX index'>
-              <div className='warever'>warever</div>
+              <div className='medium-padding-content'>
+                <Chart />
+                <div className='count-tags'>
+                  <CountTag title='personal' number='34' />
+                  <CountTag title='teasasm' number='22' />
+                  <CountTag title='department' number='23' />
+                </div>
+              </div>
+            </Card>
+            <Card title='team'>
+              <div className='teams'>
+                <Team />
+                <Team />
+              </div>
             </Card>
           </div>
         </div>

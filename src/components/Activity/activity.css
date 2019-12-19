@@ -1,9 +1,29 @@
 .activity {
   display: grid;
-  grid-template-columns: 7% 93%;
+  grid-template-columns: 50px auto;
   border-bottom: 1px solid #e8e8e8;
+  margin-top: 15px;
 }
 
+.activity:last-child {
+  border: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .activity {
+    grid-template-columns: 10% 90%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .activity {
+    grid-template-columns: 10% 90%;
+  }
+}
+@media only screen and (max-width: 378px) {
+  .activity {
+    grid-template-columns: 40px 83%;
+  }
+}
 .activity-image {
   width: 35px;
 }

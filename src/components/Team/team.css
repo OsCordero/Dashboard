@@ -1,0 +1,7 @@
+.team {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.team-profile {
+  width: 20px;
+}

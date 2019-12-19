@@ -11,11 +11,74 @@ html {
   grid-template-columns: 67% 33%;
   column-gap: 20px;
 }
+.app {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .content {
+    grid-template-columns: auto;
+  }
+}
+.primary-content,
+.secondary-content {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 15px;
+}
+.secondary-content {
+  max-height: 100px;
+}
 
 .projects-section {
   display: grid;
   grid-template-columns: auto auto auto;
 }
+
 .padding-content {
-  padding: 20px;
+  padding: 0 20px;
+}
+.medium-padding-content {
+  padding: 30px;
+  margin-top: -30px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .content {
+    grid-template-columns: auto;
+  }
+  .projects-section {
+    grid-template-columns: auto auto auto;
+  }
+  .medium-padding-content {
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: -3%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .projects-section {
+    grid-template-columns: auto auto;
+  }
+  .medium-padding-content {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .projects-section {
+    grid-template-columns: auto;
+  }
+}
+
+.count-tags {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -90px;
+}
+
+.teams {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
