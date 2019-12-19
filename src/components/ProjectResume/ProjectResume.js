@@ -2,15 +2,11 @@ import React, { Component } from 'react';
 import './projectresume.css';
 export class ProjectResume extends Component {
   render(props) {
-    const { name, description, team, lastUpdate } = this.props.data;
+    const { name, description, image, team, lastUpdate } = this.props.data;
     return (
       <div className='project-resume'>
         <div className='project-header'>
-          <img
-            className='project-photo'
-            src='https://i1.wp.com/blog.enriqueoriol.com/wp-content/uploads/2018/01/AngularLogo.jpg?fit=1200%2C675'
-            alt=''
-          />
+          <img className='project-photo' src={image} alt='' />
           <div className='project-name'> {name}</div>
         </div>
         <div className='project-body'>
