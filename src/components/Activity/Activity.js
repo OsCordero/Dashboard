@@ -11,7 +11,9 @@ function Activity(props) {
       />
 
       <div className='activity-content'>
-        <div className='activity-content-title'>{comment}</div>
+        <div className='activity-content-title'>
+          <p>{comment}</p>
+        </div>
         <div className='activity-content-time-ago'>{timeAgo}</div>
       </div>
     </div>

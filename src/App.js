@@ -21,15 +21,15 @@ function App(props) {
           <div className='primary-content'>
             <Card title='Ongoing project' headerButton='All items'>
               <div className='projects-section'>
-                {projects.map(project => (
-                  <ProjectResume data={project} />
+                {projects.map((project, index) => (
+                  <ProjectResume data={project} key={project.id} />
                 ))}
               </div>
             </Card>
             <Card title='dynamic'>
               <div className='padding-content'>
                 {activities.map(activity => (
-                  <Activity data={activity} />
+                  <Activity data={activity} key={activity.id} />
                 ))}
               </div>
             </Card>
@@ -40,7 +40,7 @@ function App(props) {
                 <Chart />
                 <div className='count-tags'>
                   <CountTag title='personal' number='34' />
-                  <CountTag title='teasasm' number='22' />
+                  <CountTag title='teasasm' number='12356789012356789' />
                   <CountTag title='department' number='23' />
                 </div>
               </div>

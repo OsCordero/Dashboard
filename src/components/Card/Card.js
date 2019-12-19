@@ -8,7 +8,9 @@ export class Card extends Component {
     return (
       <div className='card'>
         <div className='card-header'>
-          <div className='header-title'>{title}</div>
+          <div className='header-title'>
+            <h3>{title}</h3>
+          </div>
           <div className='header-button'>{headerButton}</div>
         </div>
         <div className='divider'></div>

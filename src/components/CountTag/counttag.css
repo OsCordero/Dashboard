@@ -14,10 +14,12 @@
 .number {
   margin-top: 5px;
   display: flex;
+  max-width: 90px;
   justify-content: flex-end;
   align-items: flex-end;
   font-size: x-large;
   justify-self: end;
+  word-break: break-all;
 }
 .number-remaining {
   color: #9b9b9b;

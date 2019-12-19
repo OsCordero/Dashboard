@@ -18,10 +18,14 @@ export class InitBar extends Component {
                 alt=''
               />
               <div className='resume-bar-greeting'>
-                <div className='resume-bar-main-greeting'>Good Morning Oscar!</div>
+                <div className='resume-bar-main-greeting'>
+                  <h3>Good Morning Oscar!</h3>
+                </div>
                 <div className='resume-bar-sub-greeting'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos asu abera
-                  doloremque, Lorem ipsum dolor sit amet
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos asu abera
+                    doloremque, Lorem ipsum dolor sit amet
+                  </p>
                 </div>
               </div>
             </div>

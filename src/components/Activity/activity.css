@@ -30,6 +30,7 @@
 .activity-content-title {
   font-size: small;
   margin-bottom: 10px;
+  word-break: break-all;
 }
 
 .activity-content-time-ago {
