@@ -46,9 +46,16 @@ function App(props) {
               </div>
             </Card>
             <Card title='team'>
-              <div className='teams'>
-                <Team />
-                <Team />
+              <div className='padding-content'>
+                <div className='teams'>
+                  <Team />
+
+                  <Team />
+                  <Team />
+                  <Team />
+                  <Team />
+                  <Team />
+                </div>
               </div>
             </Card>
           </div>

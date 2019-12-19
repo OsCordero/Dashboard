@@ -1,9 +1,11 @@
 import React from 'react';
+import './team.css';
 
-function Team() {
+function Team(props) {
   return (
     <div className='team'>
-      <div className='name'>asasytasj</div>
+      <img src='https://picsum.photos/200/100' className='team-profile' alt='' />
+      <div className='team-name'>asasysweqfqwedqewktfgvjhgjhijhhguhhnutasdfhgalkjsdyhasasatasj</div>
     </div>
   );
 }

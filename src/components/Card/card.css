@@ -3,6 +3,7 @@
   margin-bottom: 5px;
   max-width: 100%;
 }
+
 .divider {
   padding: 0;
 }
@@ -15,6 +16,9 @@
 .header-button {
   font-size: small;
   color: #23cde4;
+}
+.header-button:hover {
+  cursor: pointer;
 }
 .card-body {
   border-top: 1px solid #e8e8e8;

@@ -1,7 +1,19 @@
 .team {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 40px auto;
+  align-items: center;
+  padding-bottom: 15px;
+  max-width: 100%;
 }
 .team-profile {
-  width: 20px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.team-name {
+  color: #5e5e5e;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }

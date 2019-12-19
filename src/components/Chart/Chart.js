@@ -9,7 +9,7 @@ class Chart extends React.Component {
       options: {
         grid: {
           padding: {
-            top: -30,
+            top: 10,
           },
         },
         stroke: { width: 1 },
@@ -51,14 +51,16 @@ class Chart extends React.Component {
 
   render() {
     return (
-      <ReactApexChart
-        options={this.state.options}
-        series={this.state.series}
-        type='radar'
-        height='300px'
-        min-height='150px'
-        style={{ minHeight: '150px' }}
-      />
+      <div className='chart'>
+        <ReactApexChart
+          options={this.state.options}
+          series={this.state.series}
+          type='radar'
+          height='300px'
+          min-height='150px'
+          style={{ minHeight: '150px' }}
+        />
+      </div>
     );
   }
 }
