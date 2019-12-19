@@ -22,7 +22,7 @@ class Chart extends React.Component {
           size: 4,
         },
         legend: {
-          show: false,
+          show: true,
         },
         chart: {
           toolbar: {
@@ -34,15 +34,15 @@ class Chart extends React.Component {
 
       series: [
         {
-          name: 'Series 1',
+          name: 'personal',
           data: [120, 100, 50, 60, 90],
         },
         {
-          name: 'Series 2',
+          name: 'teams',
           data: [40, 110, 75, 40, 15],
         },
         {
-          name: 'Series 3',
+          name: 'deparment',
           data: [50, 20, 75, 60, 90],
         },
       ],

@@ -1,23 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './card.css';
 
-export class Card extends Component {
-  render(props) {
-    const { children, title, headerButton } = this.props;
+function Card(props) {
+  const { children, title, headerButton } = props;
 
-    return (
-      <div className='card'>
-        <div className='card-header'>
-          <div className='header-title'>
-            <h3>{title}</h3>
-          </div>
-          <div className='header-button'>{headerButton}</div>
+  return (
+    <div className='card'>
+      <div className='card-header'>
+        <div className='header-title'>
+          <h3>{title}</h3>
         </div>
-        <div className='divider'></div>
-        <div className='card-body'>{children}</div>
+        <div className='header-button'>{headerButton}</div>
       </div>
-    );
-  }
+      <div className='divider'></div>
+      <div className='card-body'>{children}</div>
+    </div>
+  );
 }
 
 export default Card;

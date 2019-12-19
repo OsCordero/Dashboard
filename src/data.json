@@ -52,67 +52,71 @@
   "activities": [
     {
       "id": 1,
+      "image": "https://i.pravatar.cc/100?img=1",
       "comment": "Qu Lili in high force grid-day mission,the design of new projects iteration June ",
       "timeAgo": "2 days ago"
     },
     {
       "id": 2,
+      "image": "https://i.pravatar.cc/100?img=2",
       "comment": "Pay little in high force grid-day mission,the design of new projects iteration June",
       "timeAgo": "2 days ago"
     },
     {
       "id": 3,
+      "image": "https://i.pravatar.cc/100?img=3",
       "comment": "Lin Dongdong in the two girls group New projects iteration June",
       "timeAgo": "2 days ago"
     },
     {
       "id": 4,
+      "image": "https://i.pravatar.cc/100?img=5",
       "comment": "Stars of the week will be May iterative routine update to a published state",
       "timeAgo": "2 days ago"
     },
     {
       "id": 5,
+      "image": "https://i.pravatar.cc/100?img=6",
       "comment": "Zhu-right in project performance has released a message",
       "timeAgo": "2 days ago"
     },
     {
       "id": 6,
+      "image": "https://i.pravatar.cc/100?img=7",
       "comment": "Lok in programmer daily New Project bran iteration",
       "timeAgo": "2 days ago"
     }
   ],
-  "authors": [
+  "teams": [
     {
       "id": 1,
-      "name": "Nicolas",
-      "lastName": "Martinez"
+      "name": "Science moving bricks",
+      "image": "https://pbs.twimg.com/profile_images/877104939868278785/TF8f9XVP_400x400.jpg"
     },
     {
       "id": 2,
-      "name": "David",
-      "lastName": "Franco"
+      "name": "Wu Yanzu",
+      "image": "http://fsystem.com.ar/img/entradas/foto_900.jpg"
     },
     {
       "id": 3,
-      "name": "Danilo",
-      "lastName": "Rivera"
-    }
-  ],
-  "users": [
-    {
-      "id": 1,
-      "name": "Gerardo",
-      "lastName": "Estrada"
+      "name": "Secondary 2 Good",
+      "image": "https://pbs.twimg.com/profile_images/938972621432950785/IlLvcIX6.jpg"
     },
     {
-      "id": 2,
-      "name": "Fiorella",
-      "lastName": "Giron"
+      "id": 4,
+      "name": "Programmer everyday",
+      "image": "https://jointstudios.files.wordpress.com/2011/02/pro_number_text.jpg"
     },
     {
-      "id": 3,
-      "name": "Kenny",
-      "lastName": "giron"
+      "id": 5,
+      "name": "High-force design team",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
+    },
+    {
+      "id": 6,
+      "name": "Lying ypu to learn computer",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsopOA-90N_kw_StRAvPZm2UqncRGNQhX6Jlazvmw2Sbis648U&s"
     }
   ]
 }

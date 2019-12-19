@@ -130,6 +130,12 @@ html {
   padding: 30px;
   margin-top: -30px;
 }
+.apexcharts-legend {
+  display: grid !important;
+  grid-template-columns: auto auto auto;
+  align-self: start;
+  grid-column-gap: 20px;
+}
 
 @media only screen and (max-width: 1200px) {
   .content {
@@ -144,26 +150,50 @@ html {
     padding-right: 100px;
     margin-top: -3%;
   }
+  .count-tag {
+    position: relative;
+    justify-self: center;
+    flex-basis: 50%;
+  }
+  .apexcharts-legend {
+    display: grid !important;
+    grid-template-columns: auto auto auto;
+    align-self: start;
+    grid-column-gap: 130px;
+  }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   .projects-section {
     grid-template-columns: auto auto;
   }
   .medium-padding-content {
     padding: 30px;
   }
+  .apexcharts-legend {
+    grid-column-gap: 160px;
+  }
 }
-
+@media only screen and (max-width: 768px) {
+  .apexcharts-legend {
+    grid-column-gap: 110px;
+  }
+}
 @media only screen and (max-width: 568px) {
   .projects-section {
     grid-template-columns: auto;
   }
+  .apexcharts-legend {
+    grid-column-gap: 25px;
+  }
 }
 
 .count-tags {
-  display: flex;
-  justify-content: space-between;
-  margin-top: -50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-self: start;
+  justify-items: center;
+  grid-column-gap: 25px;
+  margin-top: -20px;
 }
 
 .teams {
@@ -171,4 +201,23 @@ html {
   display: grid;
   grid-template-columns: 45% 45%;
   column-gap: 10%;
+}
+
+.count-tag {
+  position: relative;
+  justify-self: center;
+}
+
+.count-tag:not(:last-child):after {
+  position: absolute;
+  content: '';
+  left: calc(100% + 11px);
+  width: 1px;
+  height: 70%;
+  top: 15%;
+  background-color: #e8e8e8;
+}
+
+.card:last-child {
+  margin-bottom: 20px;
 }

@@ -19,17 +19,21 @@
     grid-template-columns: 10% 90%;
   }
 }
-@media only screen and (max-width: 378px) {
+@media only screen and (max-width: 568px) {
   .activity {
     grid-template-columns: 40px 83%;
   }
 }
 .activity-image {
   width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 100%;
 }
 .activity-content-title {
   font-size: small;
   margin-bottom: 10px;
+  color: #474747;
   word-break: break-all;
 }
 

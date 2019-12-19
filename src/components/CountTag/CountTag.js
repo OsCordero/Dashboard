@@ -7,7 +7,8 @@ export class CountTag extends Component {
     return (
       <div className='count-tag'>
         <div className='fix-text'>
-          <div className='title'>{title}</div>
+          {title && <div className='title'>{title}</div>}
+
           <div className='number'>
             {number}
             <span className='number-remaining'>{remaining}</span>

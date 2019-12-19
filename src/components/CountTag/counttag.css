@@ -1,13 +1,16 @@
 .count-tag {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   max-width: 100%;
+  width: 100%;
   padding: auto;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200) {
   .count-tag {
+    display: flex;
     justify-content: center;
-    flex-basis: 50%;
+
+    width: 100%;
   }
 }
 .title {

@@ -9,7 +9,7 @@ import Chart from './components/Chart/Chart';
 import CountTag from './components/CountTag/CountTag';
 import Team from './components/Team/Team';
 const data = require('./data.json');
-const { projects, activities } = data;
+const { projects, activities, teams } = data;
 
 function App(props) {
   return (
@@ -39,22 +39,18 @@ function App(props) {
               <div className='medium-padding-content'>
                 <Chart />
                 <div className='count-tags'>
-                  <CountTag title='personal' number='34' />
-                  <CountTag title='teasasm' number='12356789012356789' />
-                  <CountTag title='department' number='23' />
+                  <CountTag number='34' />
+                  <CountTag number='22' />
+                  <CountTag number='23' />
                 </div>
               </div>
             </Card>
             <Card title='team'>
               <div className='padding-content'>
                 <div className='teams'>
-                  <Team />
-
-                  <Team />
-                  <Team />
-                  <Team />
-                  <Team />
-                  <Team />
+                  {teams.map(team => (
+                    <Team data={team} key={team.id} />
+                  ))}
                 </div>
               </div>
             </Card>
