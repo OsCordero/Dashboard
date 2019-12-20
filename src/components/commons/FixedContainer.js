@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './styles.css';
 
-export class FixedContainer extends Component {
-  render(props) {
-    return <div className='fixed-container'>{this.props.children}</div>;
-  }
+function FixedContainer(props) {
+  return <div className='fixed-container'>{props.children}</div>;
 }
 
 export default FixedContainer;

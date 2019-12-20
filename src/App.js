@@ -15,7 +15,11 @@ function App(props) {
   return (
     <div className='app'>
       <NavBar />
-      <InitBar />
+      <InitBar
+        greeting='Good Morning Oscar!'
+        subGreeting=' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos asu abera
+                  doloremque, Lorem ipsum dolor sit amet'
+      />
       <FixedContainer>
         <div className='content'>
           <div className='primary-content'>
