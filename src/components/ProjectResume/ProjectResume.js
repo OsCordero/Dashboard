@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './projectresume.css';
 function ProjectResume(props) {
   const { name, description, image, team, lastUpdate } = props.data;
